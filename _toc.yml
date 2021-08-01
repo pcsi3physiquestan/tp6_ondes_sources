@@ -1,0 +1,19 @@
+# In _toc.yml
+- file: tp5_mecathermo.md
+  numbered: true
+
+- part: Corde de Melde
+  chapters:
+  - file: notebook/melde_preliminaire
+  - file: notebook/melde_tp
+- part: Cuve à ondes
+  chapters:
+  - file: notebook/cuve_preliminaire
+  - file: notebook/cuve_tp
+- part: Ultrasons
+  chapters:
+  - file: notebook/ondes_tp
+- part: Intérférences
+  chapters:
+  - file: notebook/interferences_preliminaire
+  - file: notebook/interferences_tp
