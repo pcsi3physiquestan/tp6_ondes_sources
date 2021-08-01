@@ -1,19 +1,22 @@
-# In _toc.yml
-- file: tp6_ondes.md
+format: jb-book
+root: tp6_ondes.md
+parts:
+- caption: Corde de Melde
   numbered: true
-
-- part: Corde de Melde
   chapters:
   - file: notebook/melde_preliminaire
   - file: notebook/melde_tp
-- part: Cuve à ondes
+- caption: "Cuve à ondes"
+  numbered: true
   chapters:
   - file: notebook/cuve_preliminaire
   - file: notebook/cuve_tp
-- part: Ultrasons
+- caption: Ultrasons
+  numbered: true
   chapters:
   - file: notebook/ondes_tp
-- part: Intérférences
+- caption: "Intérférences"
+  numbered: true
   chapters:
   - file: notebook/interferences_preliminaire
   - file: notebook/interferences_tp
