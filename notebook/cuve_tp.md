@@ -28,7 +28,7 @@ Il s'agit plus ici de la mise en place de la cuve à onde avec son dispositif de
 * Régler la fréquence d'excitation sur 0 et l'amplitude au minimum.
 * Brancher le vibreur au dispositif d'excitation.
 
-````{attentino} 
+````{attention} 
 Le vibreur devra être correctement placé à chaque expérience. L'embout excitateur ne doit surtout pas toucher la paroi en verre. Réduire l'amplitude de vibration si nécessaire.
 ````
 
@@ -82,6 +82,6 @@ Pour réaliser une excitation périodique, il faut débrancher le dispositif d'e
 
 ````
 
-````{attentino} 
+````{attention} 
 A la fin du TP, il faudra vidanger la cuve afin d'éviter tout dépôt calcaire.
 ````

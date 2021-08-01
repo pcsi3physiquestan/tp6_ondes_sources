@@ -23,7 +23,7 @@ Le principe des ondes stationnaires a été expliqué en cours. On présente ici
 Un stroboscope est un instrument utilisé pour étudier des mouvements périodiques de période $T$ trop rapides pour être observés à l'oeil nu. Le stroboscope est constitué d'une lampe émettant des flashs (à l'aide d'un dispositif mécanique ou électronique) à une fréquence $f_0$ déterminée, variable. Le mouvement à étudier est alors illuminé pendant un temps très court, à intervalles de temps réguliers $T_0=1/f_0$. La trajectoire est en fait "échantillonnée" par le stroboscope. 
 
 ```{figure} ./images/Signaux_Stroboscope_2.jpg
-:name: stroboscope
+:name: stroboscopef
 :align: center
 Différents cas.
 ```
