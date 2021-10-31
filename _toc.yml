@@ -15,6 +15,7 @@ parts:
   numbered: true
   chapters:
   - file: notebook/ondes_tp
+  - file: notebook/ondes_annexe
 - caption: "Intérférences"
   numbered: true
   chapters:

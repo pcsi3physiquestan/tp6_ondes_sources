@@ -17,18 +17,18 @@ kernelspec:
 # Travaux pratiques
 L'émetteur ultrasons a déjà été utilisé dans le premier TP. Se référer à ce TP pour son utilisation.
 
-Les ultrasons sont des ondes sonores dont l'étude présente l'avantage de n'\^etre pas audible par l'oreille humaine (la fatigue auditive est donc moins importante à la fin du TP ou lorsqu'on fait une marche arrière avec un radar de recul!). Elles sont néanmoins des ondes sonores qui peuvent \^etre émises, se propager et \^etre reçues par un récepteur adéquat. On peut donc faire l'étude de la propagation des ondes acoustiques.
+Les ultrasons sont des ondes sonores dont l'étude présente l'avantage de n'être pas audible par l'oreille humaine (la fatigue auditive est donc moins importante à la fin du TP ou lorsqu'on fait une marche arrière avec un radar de recul!). Elles sont néanmoins des ondes sonores qui peuvent être émises, se propager et être reçues par un récepteur adéquat. On peut donc faire l'étude de la propagation des ondes acoustiques.
 
 ## Influence de la fréquence d'échantillonnage
 
 ````{admonition} Manipulation
 :class: tip
 1. Choisir un mode d'émission continu pour l'émetteur. Choisir correctement une durée d'acquisition sachant que la fréquence du signal à observer est autour de 40kHz.
-2. Observer le signal excitateur de l'émetteur sur l'Atelier Scientifique en mode d'acquisition unique en imposant une période d'échantillonage de 0,25$mu$s et mesurer la fréquence du signal de deux manières:
+2. Observer le signal excitateur de l'émetteur sur l'Atelier Scientifique en mode d'acquisition unique en imposant une période d'échantillonage de $0,25\rm{\mu s}$ et mesurer la fréquence du signal de deux manières:
     * Par une mesure directe de la période temporelle.
     * En demandant le tracé du spectre du signal (Calculs $\longrightarrow$ Transformée de Fourier).
 3. Est-ce un signal sinusoïdal? Répondre en analysant l'évolution temporelle puis le spectre de Fourier. Obtenir les caractéristiques des composantes spectrales gr\^ace à la transformée de Fourier.
-4. Procéder aux m\^emes mesures pour des périodes d'échantillonnage: 2,5$mu$s et 25$mu$s. Commenter notamment la fréquence des ultrasons mesurées sur le spectre de Fourier.
+4. Procéder aux mêmes mesures pour des périodes d'échantillonnage: $2,5\rm{\mu s}$ et $25\rm{\mu s}$. Commenter notamment la fréquence des ultrasons mesurées sur le spectre de Fourier.
 
 ````
 
@@ -41,9 +41,9 @@ Placer un récepteur juste en face de l'émetteur et acquérir les deux signaux 
 ## Propagation d'un signal ultrasonore dans l'air
 
 Pour les expériences à venir, on se servir intelligemment des deux récepteurs et du rail double. On réfléchira au
-mode d'émission (continu ou salve) préférable et on s'entra\^inera à travailler avec le mode d'acquisition continu. 
+mode d'émission (continu ou salve) préférable et on s'entraînera à travailler avec le mode d'acquisition continu. 
 
-Le but est de vérifier la relation de dispersion $c = f\lambda$. On allons mesurer les trois grandeurs séparément puis tester le rapport $\frac{c}{\lambda f}$.
+Le but est de vérifier la relation de dispersion $c = f\lambda$. Nous allons mesurer les trois grandeurs séparément puis tester le rapport $\frac{c}{\lambda f}$.
 
 ````{admonition} Mesure de la longueur d'onde
 :class: tip
@@ -56,7 +56,7 @@ Le but est de vérifier la relation de dispersion $c = f\lambda$. On allons mesu
 ````{admonition} Mesure directe de la célérité des ultrasons
 :class: tip
 1. Proposer un protocole expérimentale permettant de mesurer directement la célérité de l'onde. Elle devra s'appuyer sur 5 mesures.
-2. Réaliser la mesure de la célérité avec son incertitude.
+2. Réaliser la mesure de la célérité avec son incertitude. On utilisera la propagation des variances avec la [méthode présentée ci-après](polyfit_variance)
 ````
 
 ````{admonition} Exploitation

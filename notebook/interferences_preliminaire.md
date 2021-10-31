@@ -18,7 +18,7 @@ kernelspec:
 
 ## Analyseur de spectre SpectrOvio
 
-Le capteur utilisé ici est un analyseur de spectre qui se base sur la décomposition de la lumière. Le capteur est d'abord composé d'une fibre optique dont l'entrée capte un signal lumineux et la sortie est reliée à un système dispersif (2 miroirs concaves et un réseau. On pourra s'imaginer le principe du prisme qui fonctionne de la m\^eme manière). La lumière est alors déviée suivant des angles différents suivant sa longueur d'onde. Un barrette CCD capte alors le signal dans les différentes directions et on obtient ainsi le spectre de la lumière étudiée. 
+Le capteur utilisé ici est un analyseur de spectre qui se base sur la décomposition de la lumière. Le capteur est d'abord composé d'une fibre optique dont l'entrée capte un signal lumineux et la sortie est reliée à un système dispersif (2 miroirs concaves et un réseau. On pourra s'imaginer le principe du prisme qui fonctionne de la même manière). La lumière est alors déviée suivant des angles différents suivant sa longueur d'onde. Un barrette CCD capte alors le signal dans les différentes directions et on obtient ainsi le spectre de la lumière étudiée. 
 
 ````{admonition} Mise en place du dispositif
 :class: tip
@@ -41,3 +41,14 @@ Le logiciel propose plusieurs mesures:
 * Quatrième partie:
     * _Spectrographe:_ Comme son nom l'indique, il permet d'obtenir les spectres des signaux lumineux reçu. C'est le seul mode où la correction choisie est effectivement réalisée.
 
+## Diffraction et interférences
+On va utiliser un jeton semblable à celui [ci-dessous](jeton_dif) pour étudier la diffraction et les interférences.
+
+```{figure} ./images/jeton_diffraction.jpg
+:name: jeton_dif
+:align: center
+Jeton diffraction et interférences
+```
+L'observation se fera :
+* soit un écran situé à grande distance D
+* soit par une barrette CCD permettant d'observer le profil d'intensité. On la placera à une distance suffisamment grande en veillant à ce que la figure ne dépasse pas la barette.

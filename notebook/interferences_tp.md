@@ -18,7 +18,7 @@ kernelspec:
 
 ## Analyse du spectre de différentes sources lumineuses
 ````{attention} 
-Les Lasers peuvent \^etre extr\^emement dangereux pour la vue. Il ne faut JAMAIS placé son oeil dans la direction de propagation du Laser et faire attention aux réflexions. Les lampes spectrales et les lampes à incandescence peuvent \^etre très chaudes. Il faut les manipuler avec précautions et ne surtout pas toucher l'ampoule. D'une manière générale, le matériel d'optique est un matériel fragile qu'il faut manipuler avec soin.
+Les Lasers peuvent être extrêmement dangereux pour la vue. Il ne faut JAMAIS placé son oeil dans la direction de propagation du Laser et faire attention aux réflexions. Les lampes spectrales et les lampes à incandescence peuvent être très chaudes. Il faut les manipuler avec précautions et ne surtout pas toucher l'ampoule. D'une manière générale, le matériel d'optique est un matériel fragile qu'il faut manipuler avec soin.
 ````
 
 ````{admonition} Obtenir différents spectre lumineux
@@ -29,3 +29,40 @@ Les Lasers peuvent \^etre extr\^emement dangereux pour la vue. Il ne faut JAMAIS
     * Vérifier que le LASER arrive bien sur la fibre (attention, il peut y avoir saturation du capteur).
 
 ````
+## Etude de la diffraction
+
+Il s'agit d'une étude purement qualitative. On utilisera un LASER. __Ne pas regarder le laser directement et attention aux réflexion.__
+
+````{admonition} Etude de la diffraction
+:class: tip
+1. Eclairer les fentes simples de taille différentes avec le LASER et observer l'évolution de la tâche centrale sur un écran situé à bonne distance. Commenter le profil d'intensité observé à chaque fois.
+2. Eclairer maintenant les trous simples et commenter à nouveau les observations.
+3. Remplacer l'écran par la barette CCD et observer le profil d'intensité lorsqu'on éclaire une fente. Mesurer rapidement la taille de la tâche de diffraction.
+````
+
+## Etude des interférences.
+### Etude à distance finie
+On utilise à nouveau le LASER.
+
+````{admonition} Etude des interférences
+:class: tip
+1. Eclairer les fentes doubles avec le LASER et mesurer l'interfrange sur un écran situé à une distance D. Vérifier que l'interfrange a à peu près la valeur attendue (on ne demande pas de calcul d'incertitude).
+2. Faire la même manipulation avec les autres fentes doubles.
+3. Remplacer l'écran par la barette CCD et reprendre la mesure précédente.
+````
+
+### Etude à l'infini
+
+Pour étudier la figure d'interférence à l'infini, on va la projeter sur un écran situé dans le plan focal image d'une lentille.
+
+````{admonition} Distance focale de la lentille
+:class: tip
+1. Commencer par éteindre le LASER et enlever le ainsi que le jeton d'interférences.
+2. En utilisant la lampe à LED. Réaliser un dispositif {lentille+écran} où l'écran est dans le plan focal image de la lentille. On prendra la lentille de plus grande focale à disposition.
+3. Enlever la lampe et replacer le LASER avec le jeton d'interférences.
+4. Observer la figure d'interférences et mesurer l'interfance. La comparer à la valeur attendue (sans incertitude à nouveau).
+````
+
+### Complément : Perte de cohérence
+> Remplacer le LASER par une lampe au sodium. Observe-t-on encore correctement les interférences ? On utilisera un diaphragme à iris pour limiter l'éclairage à une seule double fente.
+> Remplacer la lampe par une lampe à LED. Observe-t-on encore correctement les interférences ?
